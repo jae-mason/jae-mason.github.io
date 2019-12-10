@@ -1,3 +1,19 @@
 Html {
-    border: 50px ridge rgb(131, 87, 57);
+    border: 40px ridge rgb(131, 87, 57);
     opacity: 75%;}
+
+#heading {
+    font-family: 'IM Fell English SC', serif;
+}
+
+.subheading {
+    font-family: 'Euphoria Script', cursive;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
