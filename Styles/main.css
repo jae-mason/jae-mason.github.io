@@ -7,7 +7,7 @@ Html {background-color: rgba(202, 175, 98, 0.5);
 #index {
     background-repeat: no-repeat;
     background-size: cover;
-    .background-image: url("/images/maori_tino_rangatiratanga_grunge_flag_by_elthalen_d4sr9ug-fullview.jpg");
+    background-image: url("/images/maori_tino_rangatiratanga_grunge_flag_by_elthalen_d4sr9ug-fullview.jpg");
     opacity: 1;
 }
 
