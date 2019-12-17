@@ -16,7 +16,7 @@ Html {
 #index {
     background-repeat: no-repeat;
     background-size: cover;
-    .background-image: url("/images/maori_tino_rangatiratanga_grunge_flag_by_elthalen_d4sr9ug-fullview.jpg");
+    background-image: url("/images/maori_tino_rangatiratanga_grunge_flag_by_elthalen_d4sr9ug-fullview.jpg");
     opacity: 1;
 }
 
@@ -75,6 +75,7 @@ h3 {
     border-right-width: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
+<<<<<<< HEAD
     }
 
 .fixtopL {
@@ -83,3 +84,8 @@ h3 {
     top: 10%;
     width: 200;
     }    
+||||||| b092eac
+}
+=======
+}
+>>>>>>> 42b22ce30a554871a3321777a8b51491ae98f19b
