@@ -51,6 +51,10 @@ Html {
     width: 550;
 }
 
+.Ulist {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif
 }
@@ -65,6 +69,18 @@ h3 {
      
 }
 
+.webexample {
+    display: flex;
+    justify-content: center;
+   }
+
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .buttons {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -75,7 +91,6 @@ h3 {
     border-right-width: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
-<<<<<<< HEAD
     }
 
 .fixtopL {
@@ -84,8 +99,3 @@ h3 {
     top: 10%;
     width: 200;
     }    
-||||||| b092eac
-}
-=======
-}
->>>>>>> 42b22ce30a554871a3321777a8b51491ae98f19b
