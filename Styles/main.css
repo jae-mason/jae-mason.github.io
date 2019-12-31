@@ -3,9 +3,22 @@ Html {
     margin: 0;
     padding: 0;
     background-color: rgba(202, 175, 98, 0.5);
-    border: 40px ridge rgb(202 ,175, 98);
+    /* border: 40px ridge rgb(202 ,175, 98); */
     opacity: 75%;
     }
+
+.pageBorder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 40px ridge rgb(202, 175, 98);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
     
 #blogbody {
     margin: auto;
