@@ -37,7 +37,7 @@ Html {
     font-family: 'IM Fell English SC', serif;
     font-size: 100px;
     color: rgb(202, 175, 98);
-    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px goldenrod;
     margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
@@ -47,14 +47,14 @@ Html {
     font-family: 'IM Fell English SC', serif;
     text-align: center;
     text-shadow: 5px 5px 10px whitesmoke;
-    font-size: 50px;
+    font-size: 80px;
     
 }
 
 .subheading {
     font-family: 'Euphoria Script', cursive;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     text-shadow: 5px 5px 10px whitesmoke;
     background-color: rgb(128, 128, 128, 0.3);
     border: rgb(128, 128, 128);
@@ -78,8 +78,18 @@ h3 {
 
 .blog-link  {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-     
+    font-size: 30px;
+    background-color: rgb(202, 175, 98, 0.45);
+    /* opacity: .45; */
+    border-radius: 5px;
+    /* padding-inline-start: 5px; */
+    /* padding-inline-end: 500px; */
+    grid-auto-rows: max-content;
+    margin: auto;
+    width: 20%;
+    padding: 10px; 
+    /* text-align: center; */
+         
 }
 
 .webexample {
