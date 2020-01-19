@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  font-family: 'Frijole', cursive;
+  background-color: goldenrod;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-center;
+  flex-direction: column;
+}
+
+#message, #notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#message {
+  font-size: 1.5rem;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board div {
+  color: green;
+  font-size: 2rem;
+  width: 75px;
+  height: 75px;
+  border: 1px rgb(161, 98, 148) dotted;
+  border-radius: 10%;
+  box-shadow: black;
+  background-color: gold;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board div:hover {
+  background-color: rgb(255, 0, 255);
+}
+
+div.mine, div.mine:hover {
+  background: no-repeat center/60% url("images/bomb.svg") crimson;
+}
+
+div.hidden {
+  background: rgb(234, 3, 255);
+}
+
+div.hidden:hover {
+  background: purple;
+}
+
+div.marked, div.marked:hover {
+  background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+}
+
+.fixtopL {
+  position: fixed;
+  left: 10%;
+  top: 10%;
+  width: 200;
+  } 
+
+  .buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: violet;
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    }
